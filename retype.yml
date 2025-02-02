@@ -1,0 +1,14 @@
+# Retype configuration file
+
+project:
+  name: LayalCloud Tech Blog
+  logo: assets/images/logo.png
+
+output:
+  path: public
+
+content:
+  sources:
+    - path: blog
+      glob: '**/*.md'
+      images: '**/images/*.{png,jpg,jpeg,gif}'
