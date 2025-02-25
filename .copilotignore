@@ -1,0 +1,46 @@
+# Dependency directories
+node_modules/
+vendor/
+bower_components/
+
+# Minified files
+*.min.js
+*.min.css
+
+# Build and distribution directories
+dist/
+build/
+public/assets/
+
+# Large binary files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+*.webm
+*.mp3
+*.woff
+*.woff2
+*.ttf
+*.eot
+
+# Configuration and environment files
+.env*
+config.json
+settings.json
+
+# Cache and temporary files
+.cache/
+.tmp/
+tmp/
+.sass-cache/
+
+# Log files
+*.log
+logs/
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-*
