@@ -1,0 +1,9 @@
+# robots.txt for Layal Cloud Blog
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://yourdomain.com/sitemap.xml
+
+# Admin section should not be indexed
+Disallow: /admin/

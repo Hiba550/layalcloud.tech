@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog post on Layal Cloud">
+    <!-- These meta tags will be updated dynamically by JavaScript -->
+    <meta property="og:title" content="Layal Cloud Blog">
+    <meta property="og:description" content="Read our latest blog post">
+    <meta property="og:image" content="assets/images/og-image.jpg">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="article">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="">
+    
+    <title>Blog Post | Layal Cloud</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Syntax Highlighting (for code blocks) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    
+    <!-- Canonical URL (will be set dynamically) -->
+    <link rel="canonical" href="">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="bg-primary text-white py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1 class="site-title">Layal Cloud</h1>
+                    <p class="site-description">Insights, Ideas, Inspiration</p>
+                </div>
+                <div class="col-md-6">
+                    <nav class="navbar navbar-expand-lg navbar-dark">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-link active" href="#blog">Blog</a></li>
+                                <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+                                <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Blog Post Header -->
+    <section class="single-blog-header">
+        <!-- Will be filled by JavaScript -->
+    </section>
+
+    <!-- Blog Post Content -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <!-- Main blog content -->
+                    <div class="blog-content">
+                        <!-- Will be filled by JavaScript -->
+                        <div class="text-center py-5">
+                            <div class="spinner-border" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Social sharing -->
+                    <div class="social-share my-4">
+                        <h5>Share This Post:</h5>
+                        <div class="d-flex">
+                            <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location.href), 'facebook-share', 'width=580,height=296'); return false;" class="btn btn-sm btn-primary me-2">
+                                <i class="fab fa-facebook-f"></i> Facebook
+                            </a>
+                            <a href="#" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + '&url=' + encodeURIComponent(window.location.href), 'twitter-share', 'width=580,height=296'); return false;" class="btn btn-sm btn-info me-2">
+                                <i class="fab fa-twitter"></i> Twitter
+                            </a>
+                            <a href="#" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(window.location.href) + '&title=' + encodeURIComponent(document.title), 'linkedin-share', 'width=580,height=296'); return false;" class="btn btn-sm btn-secondary">
+                                <i class="fab fa-linkedin-in"></i> LinkedIn
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Related posts -->
+                    <div class="related-posts mt-5">
+                        <!-- Will be filled by JavaScript -->
+                    </div>
+                    
+                    <!-- Comments section (could be implemented with a third-party service) -->
+                    <div class="comments mt-5">
+                        <h3>Comments</h3>
+                        <p>Comments are disabled for this post.</p>
+                    </div>
+                </div>
+                
+                <!-- Sidebar Column -->
+                <div class="col-lg-4">
+                    <!-- Search Widget -->
+                    <div class="card mb-4">
+                        <div class="card-header">Search</div>
+                        <div class="card-body">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search for...">
+                                <button class="btn btn-primary" type="button">Go!</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Categories Widget -->
+                    <div class="card mb-4">
+                        <div class="card-header">Categories</div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <ul class="list-unstyled mb-0 categories-list">
+                                        <!-- Categories will be dynamically loaded here -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Tags Widget -->
+                    <div class="card mb-4">
+                        <div class="card-header">Tags</div>
+                        <div class="card-body">
+                            <div class="tags-cloud">
+                                <!-- Tags will be dynamically loaded here -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Newsletter Widget -->
+                    <div class="card mb-4">
+                        <div class="card-header">Subscribe to Newsletter</div>
+                        <div class="card-body">
+                            <form id="newsletter-form">
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" placeholder="Enter your email">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5>Layal Cloud</h5>
+                    <p>A professional blog sharing high-quality content and insights.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="index.html#blog" class="text-white">Blog</a></li>
+                        <li><a href="index.html#about" class="text-white">About</a></li>
+                        <li><a href="index.html#contact" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Connect With Us</h5>
+                    <div class="social-icons">
+                        <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-3 bg-light">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2025 Layal Cloud. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-white me-3">Privacy Policy</a>
+                    <a href="#" class="text-white">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Markdown to HTML Conversion -->
+    <script src="assets/js/markdown-parser.js"></script>
+    <!-- Syntax Highlighting -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/blog-loader.js"></script>
+    <script>
+        // Initialize syntax highlighting for code blocks
+        document.addEventListener('DOMContentLoaded', () => {
+            // Apply syntax highlighting after the content is loaded
+            setTimeout(() => {
+                document.querySelectorAll('pre code').forEach((block) => {
+                    hljs.highlightBlock(block);
+                });
+            }, 1000);
+        });
+    </script>
+</body>
+</html>

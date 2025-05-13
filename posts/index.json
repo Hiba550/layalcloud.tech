@@ -1,0 +1,24 @@
+[
+  {
+    "id": "getting-started-with-markdown-for-blogging",
+    "title": "Getting Started with Markdown for Blogging",
+    "date": "2025-05-13",
+    "author": "Content Team",
+    "tags": ["markdown", "blogging", "content-creation", "writing-tips"],
+    "category": "Web Development",
+    "excerpt": "Learn the basics of Markdown and how to use it effectively for blog writing. This guide covers all the essential elements you need to know.",
+    "image": "assets/images/markdown-guide.jpg",
+    "file": "getting-started-with-markdown-for-blogging.md"
+  },
+  {
+    "id": "10-seo-tips-to-boost-your-websites-visibility",
+    "title": "10 SEO Tips to Boost Your Website's Visibility",
+    "date": "2025-05-10",
+    "author": "SEO Expert",
+    "tags": ["seo", "digital-marketing", "website-optimization", "google"],
+    "category": "Digital Marketing",
+    "excerpt": "Discover practical SEO tips that will help improve your website's search engine rankings and drive more organic traffic.",
+    "image": "assets/images/seo-tips.jpg",
+    "file": "10-seo-tips-to-boost-your-websites-visibility.md"
+  }
+]
